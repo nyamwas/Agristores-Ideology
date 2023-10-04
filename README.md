@@ -1,12 +1,12 @@
 # Agristores-Ideology
-A relational database system that creates, updates, modifies and deletes records to solve a problem and achieve a desired goal
+A relational database system that creates, updates, modifies and deletes records to solve a problem and achieve a desired goal.
 Kenya lies across the equator and borders Somalia, Ethiopia, Tanzania, Uganda, Sudan, and the Indian Ocean. British rule in Kenya lasted for nearly 70 years between 1895 and 1963. Their style of governance their approach to land acquisition ownership, use and management their philosophy and patterns of wildlife conservation In 1907, the Game Department was established and charged with the responsibility of enforcing game laws and protecting the reserves. 
 ## Policy 
 ## Introduction 
 ### Service Provider 
 These terms are between you and Agristores Ideology 
 ### Age and eligibility requirements 
-In order to use the Book MS and access any content you need to be 13 years of age (or equivalent minimum age in your country) or older, have parental or guardian consent if you are a minor in your home country, have the power to enter into a binding contract with us and not be barred from doing so under any applicable laws, reside in a country where the Agristores Ideology is available 
+In order to use the Agristores Ideology and access any content you need to be 13 years of age (or equivalent minimum age in your country) or older, have parental or guardian consent if you are a minor in your home country, have the power to enter into a binding contract with us and not be barred from doing so under any applicable laws, reside in a country where the Agristores Ideology is available 
 ## Agristores Ideology Provided By Us 
 ### Book MS Options 
 We provide numerous Agristores Ideology Trials From time to time we or others on our behalf may offer trials of paid subscription for a specified period without payment or at a reduced rate 
