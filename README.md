@@ -8,7 +8,7 @@ These terms are between you and Agristores Ideology
 ### Age and eligibility requirements 
 In order to use the Agristores Ideology and access any content you need to be 13 years of age (or equivalent minimum age in your country) or older, have parental or guardian consent if you are a minor in your home country, have the power to enter into a binding contract with us and not be barred from doing so under any applicable laws, reside in a country where the Agristores Ideology is available 
 ## Agristores Ideology Provided By Us 
-### Book MS Options 
+### Agristores Ideology Options 
 We provide numerous Agristores Ideology Trials From time to time we or others on our behalf may offer trials of paid subscription for a specified period without payment or at a reduced rate 
 ### Third Party Applications, Devices and Open Source Software 
 Third-Party Applications, Devices And Open Source Software used by Agristores Ideology may be integrated with, or may otherwise interact with third party applications websites and services and third-party personal computers and mobile handsets tablets wearable devices speakers and other devices 
