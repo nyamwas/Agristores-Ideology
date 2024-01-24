@@ -1,7 +1,7 @@
 /** @Author: nyamwas
-  * @Date:Tue 23 Jan 11:53:00
+  * @Date:Fri 19 Jan 2024 11:53:00 EAT
   * @LastModifiedBy: nyamwas
-  * @LastModifiedTime: Wed 24 Jan 12:21:00
+  * @LastModifiedTime: Wed 24 Jan 2024 12:21:00 EAT
   **/
 
 	
@@ -15,14 +15,14 @@ let list = [`<fieldset>
 
 </label>
 <br>
-				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Input, Output, Processing, Storage</label><br>
-				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">New, Ready, Running, Finished</label><br>
-				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Specification, Design and Implementation, Validation, Verification</label><br>
-				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Analysis, Design, Prototype, Deployment</label><br>
+				<input type="checkbox" id="choice1_1" name="qn5" value=""/>
+				<label for="choice1_1">Input, Output, Processing, Storage</label><br>
+				<input type="checkbox" id="choice2_1" name="qn5" value=""/>
+				<label for="choice2_1">New, Ready, Running, Finished</label><br>
+				<input type="checkbox" id="choice3_1" name="qn5" value=""/>
+				<label for="choice3_1">Specification, Design and Implementation, Validation, Verification</label><br>
+				<input type="checkbox" id="choice4_1" name="qn5" value=""/>
+				<label for="choice4_1">Analysis, Design, Prototype, Deployment</label><br>
 				<p id="varError1"></p>
 
 <label>
@@ -30,14 +30,14 @@ Explain four disadvantages of the waterfall methodology at times used in the dev
 
 </label>
 <br>
-				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Delays</label><br>
+				<input type="checkbox" id="choice1_2" name="qn5" value=""/>
+				<label for="choice1_2">Delays</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Scope creep</label><br>
+				<label for="choice2_2">Scope creep</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Customer dissatisfaction</label><br>
+				<label for="choice3_2">Customer dissatisfaction</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Low quality</label><br>
+				<label for="choice4_2">Low quality</label><br>
 				<p id="varError2"></p>
 
 <label>
@@ -45,14 +45,14 @@ What are the advantages of having a good user-friendly user interface for your c
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Cost savings</label><br>
+				<label for="choice1_3">Cost savings</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Brand recognition</label><br>
+				<label for="choice2_3">Brand recognition</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Increased productivity</label><br>
+				<label for="choice3_3">Increased productivity</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Efficiency</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_3">Efficiency</label><br>
+				<p id="varError3"></p>
 
 <label>
 
@@ -62,14 +62,14 @@ Discuss two merits of using software development frameworks to develop computer 
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">It improves the organisation and control of a project</label><br>
+				<label for="choice1_4">It improves the organisation and control of a project</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">They are reusable tools</label><br>
+				<label for="choice2_4">They are reusable tools</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Reduces errors</label><br>
+				<label for="choice3_4">Reduces errors</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">They are compatible with different types of programming languages</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_4">They are compatible with different types of programming languages</label><br>
+				<p id="varError4"></p>
 
 <label>
 
@@ -102,14 +102,14 @@ Linear Algebra applications range from signal analysis to machine learning probl
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">2,3,5,7, 11</label><br>
+				<label for="choice1_6">2,3,5,7, 11</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">2,4,6,8,10</label><br>
+				<label for="choice2_6">2,4,6,8,10</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">1,1,2,3,5</label><br>
+				<label for="choice3_6">1,1,2,3,5</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">1,3,5,7,9,11</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_6">1,3,5,7,9,11</label><br>
+				<p id="varError6"></p>
 
 
 
@@ -130,29 +130,29 @@ Malleability
 
 </label>
 <br>
-				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">constant pressure for software to be changed rather than replaced</label><br>
-				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">the degree to which the elements inside a module belong together.</label><br>
-				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
-				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
-				<p id="varError5"></p>
+				<input type="checkbox" id="choice1_7" name="qn5" value=""/>
+				<label for="choice1_7">constant pressure for software to be changed rather than replaced</label><br>
+				<input type="checkbox" id="choice2_7" name="qn5" value=""/>
+				<label for="choice2_7">the degree to which the elements inside a module belong together.</label><br>
+				<input type="checkbox" id="choice3_7" name="qn5" value=""/>
+				<label for="choice3_7">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
+				<input type="checkbox" id="choice4_7" name="qn5" value=""/>
+				<label for="choice4_7">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
+				<p id="varError7"></p>
 
 <label>
 Modularity 
 </label>
 <br>
-				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">how well software is decomposed into smaller pieces with standardized interfaces</label><br>
-				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
-				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">constant pressure for software to be changed rather than replaced</label><br>
-				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
-				<p id="varError5"></p>
+				<input type="checkbox" id="choice1_8" name="qn5" value=""/>
+				<label for="choice1_8">how well software is decomposed into smaller pieces with standardized interfaces</label><br>
+				<input type="checkbox" id="choice2_8" name="qn5" value=""/>
+				<label for="choice2_8">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
+				<input type="checkbox" id="choice3_8" name="qn5" value=""/>
+				<label for="choice3_8">constant pressure for software to be changed rather than replaced</label><br>
+				<input type="checkbox" id="choice4_8" name="qn5" value=""/>
+				<label for="choice4_8">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
+				<p id="varError8"></p>
 
 <label>
 
@@ -160,15 +160,15 @@ Ergonomics
 
 </label>
 <br>
-				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">the overall process of arranging a workplace, systems, and equipment in a way that makes it easy for people to use them</label><br>
-				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
-				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
-				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">constant pressure for software to be changed rather than replaced</label><br>
-				<p id="varError5"></p>
+				<input type="checkbox" id="choice1_9" name="qn5" value=""/>
+				<label for="choice1_9">the overall process of arranging a workplace, systems, and equipment in a way that makes it easy for people to use them</label><br>
+				<input type="checkbox" id="choice2_9" name="qn5" value=""/>
+				<label for="choice2_9">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
+				<input type="checkbox" id="choice3_9" name="qn5" value=""/>
+				<label for="choice3_9">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
+				<input type="checkbox" id="choice4_9" name="qn5" value=""/>
+				<label for="choice4_9">constant pressure for software to be changed rather than replaced</label><br>
+				<p id="varError9"></p>
 
 <label>
 Robustness
@@ -176,14 +176,14 @@ Robustness
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
+				<label for="choice1_10">the ability of a software system to continue functioning correctly and reliably even in the face of unexpected or abnormal inputs or situations</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
+				<label for="choice2_10">the inter-dependency or degree of relationship between multiple modules/packages/components</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">the degree to which the elements inside a module belong together.</label><br>
+				<label for="choice3_10">the degree to which the elements inside a module belong together.</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">the overall process of arranging a workplace, systems, and equipment in a way that makes it easy for people to use them</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_10">the overall process of arranging a workplace, systems, and equipment in a way that makes it easy for people to use them</label><br>
+				<p id="varError10"></p>
 
 <label>
 
@@ -192,14 +192,14 @@ What is structured analysis
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">graphical tools that analyze and refine the objectives of an existing system and develop a new system specification which can be easily understandable by user</label><br>
+				<label for="choice1_11">graphical tools that analyze and refine the objectives of an existing system and develop a new system specification which can be easily understandable by user</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">study is performed on a software project to understand the viability of the product</label><br>
+				<label for="choice2_11">study is performed on a software project to understand the viability of the product</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">the process of using current and historical data to identify trends and relationships</label><br>
+				<label for="choice3_11">the process of using current and historical data to identify trends and relationships</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">the process of using data to forecast future outcomes</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_11">the process of using data to forecast future outcomes</label><br>
+				<p id="varError11"></p>
 
 <label>
 
@@ -208,28 +208,28 @@ Describe any three structured analysis tools
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Data Flow Diagrams</label><br>
+				<label for="choice1_12">Data Flow Diagrams</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Data dictionary</label><br>
+				<label for="choice2_12">Data dictionary</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Pseudocode</label><br>
+				<label for="choice3_12">Pseudocode</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">none of the above</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_12">none of the above</label><br>
+				<p id="varError12"></p>
 
 <label>
 Describe four different Types of feasibility studies in systems analysis
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Schedule feasibility</label><br>
+				<label for="choice1_13">Schedule feasibility</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Economic feasibility</label><br>
+				<label for="choice2_13">Economic feasibility</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Technical feasibility</label><br>
+				<label for="choice3_13">Technical feasibility</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Operational feasibility</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_12">Operational feasibility</label><br>
+				<p id="varError13"></p>
 
 <label>
 
@@ -238,14 +238,14 @@ Describe four different maintenance strategies in systems development
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Preventive Maintenance</label><br>
+				<label for="choice1_14">Preventive Maintenance</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Corrective Maintenance</label><br>
+				<label for="choice2_14">Corrective Maintenance</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Predictive Maintenance</label><br>
+				<label for="choice3_14">Predictive Maintenance</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Reactive maintenance</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_14">Reactive maintenance</label><br>
+				<p id="varError14"></p>
 
 <label>
 
@@ -254,14 +254,14 @@ Discuss the waterfall model of systems development
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Requirements gathering, Design, Implementation, Testing, Deploying, Maintenance</label><br>
+				<label for="choice1_15">Requirements gathering, Design, Implementation, Testing, Deploying, Maintenance</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Requirements gathering, Design, Construction, Testing, Deployment, Feedback</label><br>
+				<label for="choice2_15">Requirements gathering, Design, Construction, Testing, Deployment, Feedback</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Requirements gathering, Design, Building Prototype, Evaluation,Refining Prototype</label><br>
+				<label for="choice3_15">Requirements gathering, Design, Building Prototype, Evaluation,Refining Prototype</label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">none of the above</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_15">none of the above</label><br>
+				<p id="varError15"></p>
 
 <label>
 
@@ -270,14 +270,14 @@ Suppose Safaricom's Mpesa system is in the last phase of the systems development
 </label>
 <br>
 				<input type="checkbox" id="choice1_5" name="qn5" value=""/>
-				<label for="choice1_5">Performance, Security, Portability, Scalability, Reliability</label><br>
+				<label for="choice1_16">Performance, Security, Portability, Scalability, Reliability</label><br>
 				<input type="checkbox" id="choice2_5" name="qn5" value=""/>
-				<label for="choice2_5">Authentication, Validation, Verification, Data manipulation and processing, Administrative functions</label><br>
+				<label for="choice2_16">Authentication, Validation, Verification, Data manipulation and processing, Administrative functions</label><br>
 				<input type="checkbox" id="choice3_5" name="qn5" value=""/>
-				<label for="choice3_5">Completeness, Atomicity, Traceability, Relevance, </label><br>
+				<label for="choice3_16">Completeness, Atomicity, Traceability, Relevance, </label><br>
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
-				<label for="choice4_5">Products, systems, software, and processes</label><br>
-				<p id="varError5"></p>
+				<label for="choice4_16">Products, systems, software, and processes</label><br>
+				<p id="varError16"></p>
 
 
 
