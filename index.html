@@ -16,23 +16,28 @@
 <body>
 	
 </body>
-<script src="script5.js"></script>
-<script src="script3.js"></script>
+
 <script src="script2.js"></script>
 <script>
 /**@Author: 
   *@Date: 
   *@LastModifiedBy: 
-  *@LastModifiedTime: 1 Dec 2023 11:31:00 EAT
+  *@LastModifiedTime: 1 Dec 2023 12:14:00 EAT
 **/
-let myObject = new Object({
+let status = 0
+function myObject(){
+let res = 0
+if(res != 0){
+res = new Object({
 start_time: 0,
 sim_time: 1,
 average_delay: 0,
 num_custs_in_q: 0,
 area_status: 0,
 })
+return 1}else{ return 0}
+}
 
-
+console.log("utilization"+myObject())
 </script>
 </html>
