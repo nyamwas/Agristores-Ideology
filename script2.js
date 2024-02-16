@@ -1,12 +1,12 @@
 /** @Author: nyamwas
   * @Date: Wed Jan 24 18:37:00 EAT
   * @LastModifiedBy: nyamwas
-  * @LastModifiedTime: Wed 24 Jan 21:24:00 EAT
+  * @LastModifiedTime: Wed 7 Feb 16:17:00 EAT
   **/
 
 var records = new Array()
-var score = 0
-let list = [`<form id="register" onsubmit="verify()"><label>username: </label><input type="text" placeholder="admin"/><br><label>new password</label><input type="password" placeholder="******"/><br><label>confirm password</label><input type="password" placeholder="******"><br><input type="submit"/></form><br>`,`<p id="usr"></p>`,`<fieldset>
+var averageScore = new Array()
+let list = [`<form id="register" onsubmit="verify()"><label>username: </label><input type="text" id="username" placeholder="admin"/><br><label>new password</label><input id="password" type="password" placeholder="******"/><br><br><input type="submit"/></form><br>`,`<p id="usr"></p>`,`<fieldset>
 <img width="40" height="40" src="./shelf.png" alt="Library-Ideology"/>
 <hr>
 <form id="frm1" action="" onsubmit="validate()" method="post">
@@ -287,7 +287,7 @@ Suppose Safaricom's Mpesa system is in the last phase of the systems development
 <legend>quiz</legend></fieldset>`,`<fieldset>
 <img width="40" height="40" src="./shelf.png" alt="Library-Ideology"/>
 <hr>
-<form action="" onsubmit="validate()" id="frm4" method="post">
+<form action="" onsubmit="validateFour()" id="frm4" method="post">
 <label for="id19">
 
 
@@ -446,7 +446,7 @@ Briefly explain the objectived and trade-offs of distributed database systems
 `,`<fieldset>
 <img width="40" height="40" src="./shelf.png" alt="Library-Ideology"/>
 <hr>
-<form action="" onsubmit="validate()" id="frm5" method="post">
+<form action="" onsubmit="validateFive()" id="frm5" method="post">
 <label for="id19">
 
 Solve the following system of linear equations using an inverse matrix 
@@ -522,7 +522,7 @@ Using appropriate examples, explain three theorems of Eigen values and Eigen vec
 <legend>quiz</legend>
 <img src="./shelf.png" height="40" width="40" alt="">
 <hr>
-<form id="frm6">
+<form id="frm6" onsubmit="validateSix()">
 <label for="id19">
 
 Distinguish between the TCP and IP protocols found on the internet
@@ -651,12 +651,261 @@ GET
 				<input type="checkbox" id="choice4_5" name="qn5" value=""/>
 				<label for="choice4_5">none of the above</label><br>
 				<p id="varError5"></p>
+<input type="submit"/>
+<input type="reset"/></form>
+</fieldset>`,
+`
+<fieldset>
+<legend>quiz</legend>
+<img src="./shelf.png" height="40" width="40" alt="">
+<hr>
+<form id="frm7" onsubmit="validateSeven()">
+<label for="id19">
+
+Define the following terms<br>
+A set
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_1" name="qn5" value=""/>
+				<label for="choice1_5">a set is an abstract data type that can store unique values, without any particular order</label><br>
+				<input type="checkbox" id="choice72_1" name="qn5" value=""/>
+				<label for="choice2_5">indexed collection</label><br>
+				<input type="checkbox" id="choice73_1" name="qn5" value=""/>
+				<label for="choice3_5">an ordered, immutable collection of elements</label><br>
+				<input type="checkbox" id="choice74_1" name="qn5" value=""/>
+				<label for="choice4_5">values in a sequence</label><br>
+				<p id="varError1_7"></p>
+
+<label>
+
+Power set
 
 
+</label>
+<br>
+				<input type="checkbox" id="choice71_2" name="qn5" value=""/>
+				<label for="choice1_5">values in a sequence</label><br>
+				<input type="checkbox" id="choice72_2" name="qn5" value=""/>
+				<label for="choice2_5">a set which includes all the subsets including the empty set and the original set itself</label><br>
+				<input type="checkbox" id="choice73_2" name="qn5" value=""/>
+				<label for="choice3_5">Set A is said to be a subset of Set B if all the elements of Set A are also present in Set B</label><br>
+				<input type="checkbox" id="choice74_2" name="qn5" value=""/>
+				<label for="choice4_5">an ordered data structure with elements separated by a comma and enclosed within square brackets</label><br>
+				<p id="varError2_7"></p>
+
+<label>
+Relation
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_3" name="qn5" value=""/>
+				<label for="choice1_5">defines what the name of the table is</label><br>
+				<input type="checkbox" id="choice72_3" name="qn5" value=""/>
+				<label for="choice2_5">databases that organize data in documents, collections, and graphs, allowing for a more flexible data model with the ability to store complex structures</label><br>
+				<input type="checkbox" id="choice73_3" name="qn5" value=""/>
+				<label for="choice3_5">a connection from a row of data to a column or type of data</label><br>
+				<input type="checkbox" id="choice74_3" name="qn5" value=""/>
+				<label for="choice4_5">has a single input for a single output</label><br>
+				<p id="varError3_7"></p>
+
+<label>
+
+
+Equivalence
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_4" name="qn5" value=""/>
+				<label for="choice1_5">A statement that two properties, descriptors or attributes of classes have similar meaning</label><br>
+				<input type="checkbox" id="choice72_4" name="qn5" value=""/>
+				<label for="choice2_5">same in all aspects</label><br>
+				<input type="checkbox" id="choice73_4" name="qn5" value=""/>
+				<label for="choice3_5">when you can map one perfectly onto the other by reflection, rotating, and translating it without distortion</label><br>
+				<input type="checkbox" id="choice74_4" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError4_7"></p>
+
+<label>
+
+
+Truth table 
+
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_5" name="qn5" value=""/>
+				<label for="choice1_5">used to describe sequential circuits</label><br>
+				<input type="checkbox" id="choice72_5" name="qn5" value=""/>
+				<label for="choice2_5"> a method for mapping out the possible truth values in an expression and to determine their outcomes</label><br>
+				<input type="checkbox" id="choice73_5" name="qn5" value=""/>
+				<label for="choice3_5">defines the next state of flip-flop in terms of flip-flop input and current state</label><br>
+				<input type="checkbox" id="choice74_5" name="qn5" value=""/>
+				<label for="choice4_5">determines what an algorithm does by running through it to see what happens as the algorithm runs</label><br>
+				<p id="varError5_7"></p>
+
+<label>
+State and prove FOUR Laws of sets
+
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_6" name="qn5" value=""/>
+				<label for="choice1_5">the commutative rule of addition, the commutative rule of multiplication, the associative rule of addition, the associative rule of multiplication, and the distributive property of multiplication</label><br>
+				<input type="checkbox" id="choice72_6" name="qn5" value=""/>
+				<label for="choice2_5">switching, addition, and multiplication</label><br>
+				<input type="checkbox" id="choice73_6" name="qn5" value=""/>
+				<label for="choice3_5">commutative, associative, distributive, identity</label><br>
+				<input type="checkbox" id="choice74_6" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError6_7"></p>
+
+<label>
+Let A={a,b,c,d}, B={d,e,a,c}, C={d,b,a,c} and D={a,a,d,e,c,e} which of the above sets are equal
+Suppose A={1,2,3}, B={u,v} and C={m,n}. List the elements of Ax(BxC)
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_7" name="qn5" value=""/>
+				<label for="choice1_5">D = {a,a,d,e,c,e} and B = {d,e,a,c}</label><br>
+				<input type="checkbox" id="choice72_7" name="qn5" value=""/>
+				<label for="choice2_5">D = {a,a,d,e,c,e} and A={a,b,c,d}</label><br>
+				<input type="checkbox" id="choice73_7" name="qn5" value=""/>
+				<label for="choice3_5">D = {a,a,d,e,c,e} and C={d,b,a,c}</label><br>
+				<input type="checkbox" id="choice74_7" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError7_7"></p>
+
+<label>
+
+Transform the following summation and product notation by making the change of variable I=k+1
+sum from k=0 to k(k+1)
+
+</label>
+<br>
+				<input type="checkbox" id="choice71_8" name="qn5" value=""/>
+				<label for="choice1_5">sum from k=0 to k(k+1)</label><br>
+				<input type="checkbox" id="choice72_8" name="qn5" value=""/>
+				<label for="choice2_5">sum from k=0 to I = k+1</label><br>
+				<input type="checkbox" id="choice73_8" name="qn5" value=""/>
+				<label for="choice3_5">sum from k=0 to k(k+1)</label><br>
+				<input type="checkbox" id="choice74_8" name="qn5" value=""/>
+				<label for="choice4_5">sum from k=0 to k+1</label><br>
+				<p id="varError8_7"></p>
+
+</label>
+<input id="id19" type="submit"/>
+<input  type="reset"/></form>
+</fieldset>`,
+
+`<fieldset>
+<legend>quiz</legend>
+<img src="./shelf.png" height="40" width="40" alt="">
+<hr>
+<form id="frm8" onsubmit="validateEight()">
+<label for="id19">
+Explain three (3) skills needed by managers at different levels of management in an organization
+
+</label>
+<br>
+				<input type="radio" id="choice1_5" name="qn5" value=""/>
+				<label for="choice1_5">O(n)</label><br>
+				<input type="radio" id="choice2_5" name="qn5" value=""/>
+				<label for="choice2_5">O(1)</label><br>
+				<input type="radio" id="choice3_5" name="qn5" value=""/>
+				<label for="choice3_5">O(n^2)</label><br>
+				<input type="radio" id="choice4_5" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError5"></p>
+
+<label>
+
+"A firm is only as good as its management and inevitably gets the management it deserves". Interpret this statement with reference to the managerial functions 
+
+</label>
+<br>
+				<input type="radio" id="choice1_5" name="qn5" value=""/>
+				<label for="choice1_5">O(n)</label><br>
+				<input type="radio" id="choice2_5" name="qn5" value=""/>
+				<label for="choice2_5">O(1)</label><br>
+				<input type="radio" id="choice3_5" name="qn5" value=""/>
+				<label for="choice3_5">O(n^2)</label><br>
+				<input type="radio" id="choice4_5" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError5"></p>
+
+<label>
+
+
+Clearly define the process of organizing
+
+</label>
+<br>
+				<input type="radio" id="choice1_5" name="qn5" value=""/>
+				<label for="choice1_5">O(n)</label><br>
+				<input type="radio" id="choice2_5" name="qn5" value=""/>
+				<label for="choice2_5">O(1)</label><br>
+				<input type="radio" id="choice3_5" name="qn5" value=""/>
+				<label for="choice3_5">O(n^2)</label><br>
+				<input type="radio" id="choice4_5" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError5"></p>
+
+<label>
+
+Is management an art or science
+
+
+</label>
+<br>
+				<input type="radio" id="choice1_5" name="qn5" value=""/>
+				<label for="choice1_5">O(n)</label><br>
+				<input type="radio" id="choice2_5" name="qn5" value=""/>
+				<label for="choice2_5">O(1)</label><br>
+				<input type="radio" id="choice3_5" name="qn5" value=""/>
+				<label for="choice3_5">O(n^2)</label><br>
+				<input type="radio" id="choice4_5" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError5"></p>
+
+<label>
+How can managers improve their personal time management so that they can focus on the pressing demands of the day and create the pressing demands of the day and create space in which to plant strategically for the future
+
+</label>
+<br>
+				<input type="radio" id="choice1_5" name="qn5" value=""/>
+				<label for="choice1_5">O(n)</label><br>
+				<input type="radio" id="choice2_5" name="qn5" value=""/>
+				<label for="choice2_5">O(1)</label><br>
+				<input type="radio" id="choice3_5" name="qn5" value=""/>
+				<label for="choice3_5">O(n^2)</label><br>
+				<input type="radio" id="choice4_5" name="qn5" value=""/>
+				<label for="choice4_5">none of the above</label><br>
+				<p id="varError5"></p>
+
+
+</label>
+<input id="id19" type="submit"/><input type="reset"/></form>
 </fieldset>`]
 
 function initialize(){
-var terms = "Library-Ideology is an online Ecommerce software on the Github Inc. platform These terms are between you and Library-Ideology In order to use the Library-Ideology and access any content you need to be 13 years of age (or equivalent minimum age in your country) or older We provide numerous Library-Ideology Options Permission is hereby granted"
+var terms = `Library-Ideology is an online software on GitHub Inc. platform. In order to use the Library-Ideology and access any content you need to be 13 years of age (or equivalent minimum age in your country) or older.Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.`
 var isTermsAndConditionsOk = false
 const z = prompt(terms)
 return 1
@@ -665,7 +914,7 @@ return 1
 
 function declare(){
 var score = 0
-for(let i = 0; i <= 10; i++){
+for(let i = 0; i <= 16; i++){
 document.querySelector("body").innerHTML += list[i]
 }
 return 1
@@ -673,6 +922,8 @@ return 1
 //frm1
 function validate(){
 event.preventDefault()
+
+var score = 0
 if(document.querySelector("input#choice12_5").checked){score++
 document.querySelector("p#varError1_1").innerHTML +="correct +" + 1 + " XP"} else{
 document.querySelector("p#varError1_1").innerHTML +="correct answer is New, Ready, Running, Finished"
@@ -698,27 +949,33 @@ document.querySelector("p#varError5_1").innerHTML +="correct answer is Django - 
 
 
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" 
-score = 0
+document.querySelector("p#usr").innerHTML += "congratulations , you got "+ score/5 *100 + "%" + "<br>" 
+averageScore.push(score/5)
+average()
 return 0
 }
 
 //frm2
 function validateTwo(){
 event.preventDefault()
+
+var score = 0
 if(document.querySelector("input#choice21_5").checked){score++
 document.querySelector("p#varError1_2").innerHTML +="correct " + 1 + " XP"} else{
 document.querySelector("p#varError1_2").innerHTML +="correct answer is 2,3,5,7, 11"
 }
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/1 *100 + "%" 
-score = 0
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/1 *100 + "%" + "<br>"
+averageScore.push(score/1)
+average()
 return 0
 }
 
 //frm3
 function validateThree(){
 event.preventDefault()
+
+var score = 0
 if(document.querySelector("input#choice12_5").checked){score++
 document.querySelector("p#varError1_1").innerHTML +="correct " + 1 + " XP"} else{
 document.querySelector("p#varError1_1").innerHTML +="correct answer is New, Ready, Running, Finished"
@@ -744,13 +1001,15 @@ document.querySelector("p#varError5_1").innerHTML +="there are no solutions"
 
 
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" 
-
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%"+ "<br>" 
+averageScore.push(score/5)
+average()
 return 0
 }
 //frm4
 function validateFour(){
 event.preventDefault()
+var score = 0
 if(document.querySelector("input#choice12_5").checked){score++
 document.querySelector("p#varError1_1").innerHTML +="correct " + 1 + " XP"} else{
 document.querySelector("p#varError1_1").innerHTML +="correct answer is New, Ready, Running, Finished"
@@ -776,14 +1035,16 @@ document.querySelector("p#varError5_1").innerHTML +="there are no solutions"
 
 
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" 
-
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" + "<br>"
+averageScore.push(score/5)
+average()
 return 0
 }
 
 //frm5
 function validateFive(){
 event.preventDefault()
+var score = 0
 if(document.querySelector("input#choice12_5").checked){score++
 document.querySelector("p#varError1_1").innerHTML +="correct " + 1 + " XP"} else{
 document.querySelector("p#varError1_1").innerHTML +="correct answer is New, Ready, Running, Finished"
@@ -809,14 +1070,16 @@ document.querySelector("p#varError5_1").innerHTML +="there are no solutions"
 
 
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" 
-
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" + "<br>"
+averageScore.push(score/5)
+average()
 return 0
 }
 
 //frm6
 function validateSix(){
 event.preventDefault()
+var score = 0
 if(document.querySelector("input#choice12_5").checked){score++
 document.querySelector("p#varError1_1").innerHTML +="correct " + 1 + " XP"} else{
 document.querySelector("p#varError1_1").innerHTML +="correct answer is New, Ready, Running, Finished"
@@ -842,15 +1105,72 @@ document.querySelector("p#varError5_1").innerHTML +="there are no solutions"
 
 
 
-document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" 
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/5 *100 + "%" + "<br>"
+averageScore.push(score/5)
+average()
+return 0
+}
 
+//frm7
+function validateSeven(){
+var score = 0
+event.preventDefault()
+if(document.querySelector("input#choice71_1").checked){score++
+document.querySelector("p#varError1_7").innerHTML +="correct " + 1 + " XP"} else{
+document.querySelector("p#varError1_7").innerHTML +="correct answer is a set is an abstract data type that can store unique values, without any particular order"
+}
+if(document.querySelector("input#choice72_2").checked) {score++
+document.querySelector("p#varError2_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError2_7").innerHTML +="correct answer is a set which includes all the subsets including the empty set and the original set itself "
+}
+if(document.querySelector("input#choice73_3").checked) {score++
+document.querySelector("p#varError3_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError3_7").innerHTML +="correct answer is a connection from a row of data to a column or type of data"
+}
+if(document.querySelector("input#choice71_4").checked) {score++
+document.querySelector("p#varError4_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError4_7").innerHTML +="correct answers is a statement that two properties, descriptors or attributes of classes have similar meaning"
+}
+if(document.querySelector("input#choice72_5").checked) {score++
+document.querySelector("p#varError5_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError5_7").innerHTML +="correct answer is a method for mapping out the possible truth values in an expression and to determine their outcomes"
+}
+
+if(document.querySelector("input#choice73_6").checked) {score++
+document.querySelector("p#varError6_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError6_7").innerHTML +="correct answer is commutative, associative, distributive, identity"
+}
+
+if(document.querySelector("input#choice71_7").checked) {score++
+document.querySelector("p#varError7_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError7_7").innerHTML +="correct answer is {a,a,d,e,c,e}"
+}
+
+if(document.querySelector("input#choice72_8").checked) {score++
+document.querySelector("p#varError8_7").innerHTML +="correct " +  1 + " XP"} else {
+document.querySelector("p#varError8_7").innerHTML +="correct answer is I=k+1"
+}
+document.querySelector("p#usr").innerHTML += "congratulations , you got " + score/8 *100 + "%" + "<br>"
+averageScore.push(score/8)
+average()
 return 0
 }
 function verify(){
 event.preventDefault()
-records.push(['admin','123456'])
+records[0] = new Object({username: document.querySelector("input#username").value ,password: document.querySelector("input#password").value})
+document.querySelector("input#username").value !== "" && document.querySelector("input#password").value !== "" ? alert("Logged in as " + records[0].username) : alert("Username or password incorrect")
 return 1
 }
+
+function average(){
+var result = 0
+for(let i = 0; i <= averageScore.length - 1; i++){
+result = result + averageScore[i]
+}
+alert("Average: " + result/averageScore.length * 100 + "%") 
+return 1
+}
+
 
 
 
